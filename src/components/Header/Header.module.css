@@ -1,0 +1,27 @@
+.wrapper {
+  margin-left: 20px;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  width: 58px;
+  height: 22px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  margin-right: 38px;
+
+  text-align: center;
+  letter-spacing: -0.408px;
+}
+
+.button:active {
+  text-decoration-line: underline;
+}

@@ -1,0 +1,146 @@
+.button {
+  background: #007aff;
+  border-radius: 8px;
+  width: 343px;
+  height: 50px;
+  color: #fff;
+
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.label {
+  height: 22px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: rgba(235, 235, 245, 0.6);
+  margin-left: 10px;
+}
+
+.input {
+  height: 36px;
+  width: 343px;
+  background: rgba(118, 118, 128, 0.24);
+  border-radius: 10px;
+  padding-left: 10px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: rgba(235, 235, 245, 0.6);
+}
+
+.textarea {
+  width: 343px;
+  height: 120px;
+  background: rgba(118, 118, 128, 0.24);
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.img_button {
+  width: 60px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.29);
+}
+
+.img_button_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 122px;
+  height: 86px;
+  background: rgba(118, 118, 128, 0.24);
+  border-radius: 10px;
+  margin-bottom: 43px;
+}
+
+.upload_img {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  width: 0.4px;
+  height: 0.4px;
+}
+
+.upload_file__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 240px;
+  padding: 9px 49px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload_file__icon {
+  width: 80px;
+  height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .input {
+    height: 27px;
+    width: 255px;
+    font-size: 12px;
+  }
+  .label {
+    height: 16px;
+    font-weight: 525;
+    font-size: 10px;
+  }
+  .button {
+    width: 255px;
+    height: 37px;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .textarea {
+    width: 255px;
+    height: 90px;
+    font-size: 13px;
+  }
+  .img_button {
+    width: 45px;
+    height: 42px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .input {
+    height: 27px;
+    width: 255px;
+    font-size: 12px;
+  }
+  .label {
+    height: 16px;
+    font-weight: 525;
+    font-size: 10px;
+  }
+  .button {
+    width: 255px;
+    height: 37px;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .textarea {
+    width: 255px;
+    height: 90px;
+    font-size: 13px;
+  }
+  .img_button {
+    width: 45px;
+    height: 42px;
+  }
+} ;
